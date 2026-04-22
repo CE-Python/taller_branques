@@ -1,5 +1,5 @@
 # taller_branques
-# Taller de Git: Branques, Merge i Pull Requests
+# Taller de Git: Branques i Merge
 
 Segueix les instruccions en ordre i **espera la indicació del professor/a** abans de passar a cada fase.
 
