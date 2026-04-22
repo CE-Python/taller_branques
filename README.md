@@ -77,7 +77,7 @@ git commit -m "Afegit fitxer de el-teu-nom-cognom"
 Comprova l'historial:
 
 ```bash
-git lg
+git log
 ```
 
 Veus el teu commit a la teva branca, per sobre del punt de partida de `main`.
@@ -105,7 +105,7 @@ Comprova el resultat:
 
 ```bash
 ls alumnes/
-git lg
+git log
 ```
 
 > Ara veus els fitxers de tots els companys a la carpeta `alumnes/`. El `git pull` ha sincronitzat automàticament la feina de tothom.
