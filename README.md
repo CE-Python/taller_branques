@@ -80,6 +80,14 @@ Comprova l'historial:
 git log
 ```
 
+> Mostra l'historial complet de commits, un bloc per commit.
+
+```bash
+git log --oneline --graph --all
+```
+
+> Versió compacta: cada commit en una línia, amb el graf ASCII de branques i totes les branques visibles.
+
 Veus el teu commit a la teva branca, per sobre del punt de partida de `main`.
 
 ### Pas 1.5 — Pujar la branca al repositori remot
@@ -107,6 +115,14 @@ Comprova el resultat:
 ls alumnes/
 git log
 ```
+
+> Mostra l'historial complet de commits, un bloc per commit.
+
+```bash
+git log --oneline --graph --all
+```
+
+> Versió compacta: cada commit en una línia, amb el graf ASCII de branques i totes les branques visibles.
 
 > Ara veus els fitxers de tots els companys a la carpeta `alumnes/`. El `git pull` ha sincronitzat automàticament la feina de tothom.
 
@@ -181,7 +197,15 @@ El professor/a resoldrà el conflicte en directe i farà el commit de resolució
 git switch main
 git pull
 cat historia-sant-jordi.md
-git lg
+git log
 ```
+
+> Mostra l'historial complet de commits, un bloc per commit.
+
+```bash
+git log --oneline --graph --all
+```
+
+> Versió compacta: cada commit en una línia, amb el graf ASCII de branques i totes les branques visibles.
 
 Veieu el commit de merge amb dos pares a l'historial.
